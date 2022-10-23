@@ -21,6 +21,7 @@
 		1728089B2903D14700A18075 /* ArmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1728089A2903D14700A18075 /* ArmView.swift */; };
 		1728089E2903D5C100A18075 /* PlayRecordSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1728089D2903D5C100A18075 /* PlayRecordSound.swift */; };
 		172808A22903DEA500A18075 /* recordMusic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1728089C2903D30E00A18075 /* recordMusic.m4a */; };
+		172CC2FA2905260E0059A310 /* HueRotationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172CC2F92905260E0059A310 /* HueRotationExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		1728089A2903D14700A18075 /* ArmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmView.swift; sourceTree = "<group>"; };
 		1728089C2903D30E00A18075 /* recordMusic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = recordMusic.m4a; sourceTree = "<group>"; };
 		1728089D2903D5C100A18075 /* PlayRecordSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayRecordSound.swift; sourceTree = "<group>"; };
+		172CC2F92905260E0059A310 /* HueRotationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueRotationExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				1728088D2903C00400A18075 /* CircleAnimation.swift */,
 				172808932903C74400A18075 /* Record Player */,
+				172CC2F92905260E0059A310 /* HueRotationExample.swift */,
 			);
 			path = Animaciones;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				1728089E2903D5C100A18075 /* PlayRecordSound.swift in Sources */,
 				172808902903C60E00A18075 /* RecordPlayer.swift in Sources */,
 				1728087E2903B28A00A18075 /* ContentView.swift in Sources */,
+				172CC2FA2905260E0059A310 /* HueRotationExample.swift in Sources */,
 				1728087C2903B28A00A18075 /* PacktSampleSwiftUIApp.swift in Sources */,
 				1728089B2903D14700A18075 /* ArmView.swift in Sources */,
 				172808992903CEAF00A18075 /* RecordView.swift in Sources */,
