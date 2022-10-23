@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "birdLeftWing.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

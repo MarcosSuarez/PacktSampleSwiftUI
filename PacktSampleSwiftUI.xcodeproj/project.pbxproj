@@ -23,6 +23,7 @@
 		172808A22903DEA500A18075 /* recordMusic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1728089C2903D30E00A18075 /* recordMusic.m4a */; };
 		172CC2FA2905260E0059A310 /* HueRotationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172CC2F92905260E0059A310 /* HueRotationExample.swift */; };
 		172CC2FC29052C590059A310 /* BreathingFlower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172CC2FB29052C590059A310 /* BreathingFlower.swift */; };
+		172CC2FE29053C380059A310 /* PatrioticBird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172CC2FD29053C380059A310 /* PatrioticBird.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		1728089D2903D5C100A18075 /* PlayRecordSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayRecordSound.swift; sourceTree = "<group>"; };
 		172CC2F92905260E0059A310 /* HueRotationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueRotationExample.swift; sourceTree = "<group>"; };
 		172CC2FB29052C590059A310 /* BreathingFlower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingFlower.swift; sourceTree = "<group>"; };
+		172CC2FD29053C380059A310 /* PatrioticBird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatrioticBird.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				172808932903C74400A18075 /* Record Player */,
 				172CC2F92905260E0059A310 /* HueRotationExample.swift */,
 				172CC2FB29052C590059A310 /* BreathingFlower.swift */,
+				172CC2FD29053C380059A310 /* PatrioticBird.swift */,
 			);
 			path = Animaciones;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			files = (
 				1728089E2903D5C100A18075 /* PlayRecordSound.swift in Sources */,
 				172808902903C60E00A18075 /* RecordPlayer.swift in Sources */,
+				172CC2FE29053C380059A310 /* PatrioticBird.swift in Sources */,
 				1728087E2903B28A00A18075 /* ContentView.swift in Sources */,
 				172CC2FA2905260E0059A310 /* HueRotationExample.swift in Sources */,
 				1728087C2903B28A00A18075 /* PacktSampleSwiftUIApp.swift in Sources */,
