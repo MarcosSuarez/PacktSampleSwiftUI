@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("Comming soon tabla")
+            Text("Comming soon Menu")
         }
     }
 }

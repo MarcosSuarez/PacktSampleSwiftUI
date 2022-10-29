@@ -26,6 +26,8 @@
 		172CC2FE29053C380059A310 /* PatrioticBird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172CC2FD29053C380059A310 /* PatrioticBird.swift */; };
 		176D3CEE290CE4890053FB73 /* Dodgeball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176D3CED290CE4890053FB73 /* Dodgeball.swift */; };
 		176D3CF0290CEC5D0053FB73 /* HueRotationExample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176D3CEF290CEC5D0053FB73 /* HueRotationExample2.swift */; };
+		176D3CF2290CF7540053FB73 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176D3CF1290CF7540053FB73 /* SettingsView.swift */; };
+		176D3CF5290D024B0053FB73 /* HomeClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176D3CF4290D024B0053FB73 /* HomeClockView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		172CC2FD29053C380059A310 /* PatrioticBird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatrioticBird.swift; sourceTree = "<group>"; };
 		176D3CED290CE4890053FB73 /* Dodgeball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dodgeball.swift; sourceTree = "<group>"; };
 		176D3CEF290CEC5D0053FB73 /* HueRotationExample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueRotationExample2.swift; sourceTree = "<group>"; };
+		176D3CF1290CF7540053FB73 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		176D3CF4290D024B0053FB73 /* HomeClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeClockView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +116,13 @@
 			isa = PBXGroup;
 			children = (
 				1728088D2903C00400A18075 /* CircleAnimation.swift */,
-				172808932903C74400A18075 /* Record Player */,
 				172CC2F92905260E0059A310 /* HueRotationExample.swift */,
 				176D3CEF290CEC5D0053FB73 /* HueRotationExample2.swift */,
+				172808932903C74400A18075 /* Record Player */,
 				172CC2FB29052C590059A310 /* BreathingFlower.swift */,
 				172CC2FD29053C380059A310 /* PatrioticBird.swift */,
 				176D3CED290CE4890053FB73 /* Dodgeball.swift */,
+				176D3CF3290CFC330053FB73 /* TransitionViews */,
 			);
 			path = Animaciones;
 			sourceTree = "<group>";
@@ -142,6 +147,15 @@
 				1728087D2903B28A00A18075 /* ContentView.swift */,
 			);
 			path = Menu;
+			sourceTree = "<group>";
+		};
+		176D3CF3290CFC330053FB73 /* TransitionViews */ = {
+			isa = PBXGroup;
+			children = (
+				176D3CF4290D024B0053FB73 /* HomeClockView.swift */,
+				176D3CF1290CF7540053FB73 /* SettingsView.swift */,
+			);
+			path = TransitionViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,12 +238,14 @@
 				172CC2FA2905260E0059A310 /* HueRotationExample.swift in Sources */,
 				1728087C2903B28A00A18075 /* PacktSampleSwiftUIApp.swift in Sources */,
 				1728089B2903D14700A18075 /* ArmView.swift in Sources */,
+				176D3CF2290CF7540053FB73 /* SettingsView.swift in Sources */,
 				172808992903CEAF00A18075 /* RecordView.swift in Sources */,
 				176D3CEE290CE4890053FB73 /* Dodgeball.swift in Sources */,
 				172CC2FC29052C590059A310 /* BreathingFlower.swift in Sources */,
 				176D3CF0290CEC5D0053FB73 /* HueRotationExample2.swift in Sources */,
 				1728088E2903C00400A18075 /* CircleAnimation.swift in Sources */,
 				1728088B2903BF6000A18075 /* ImageExample2.swift in Sources */,
+				176D3CF5290D024B0053FB73 /* HomeClockView.swift in Sources */,
 				172808922903C73500A18075 /* RecordPlayerBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
