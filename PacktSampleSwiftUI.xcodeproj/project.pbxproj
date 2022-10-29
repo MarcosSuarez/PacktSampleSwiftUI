@@ -24,6 +24,7 @@
 		172CC2FA2905260E0059A310 /* HueRotationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172CC2F92905260E0059A310 /* HueRotationExample.swift */; };
 		172CC2FC29052C590059A310 /* BreathingFlower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172CC2FB29052C590059A310 /* BreathingFlower.swift */; };
 		172CC2FE29053C380059A310 /* PatrioticBird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172CC2FD29053C380059A310 /* PatrioticBird.swift */; };
+		176D3CEE290CE4890053FB73 /* Dodgeball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176D3CED290CE4890053FB73 /* Dodgeball.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		172CC2F92905260E0059A310 /* HueRotationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueRotationExample.swift; sourceTree = "<group>"; };
 		172CC2FB29052C590059A310 /* BreathingFlower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingFlower.swift; sourceTree = "<group>"; };
 		172CC2FD29053C380059A310 /* PatrioticBird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatrioticBird.swift; sourceTree = "<group>"; };
+		176D3CED290CE4890053FB73 /* Dodgeball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dodgeball.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				172CC2F92905260E0059A310 /* HueRotationExample.swift */,
 				172CC2FB29052C590059A310 /* BreathingFlower.swift */,
 				172CC2FD29053C380059A310 /* PatrioticBird.swift */,
+				176D3CED290CE4890053FB73 /* Dodgeball.swift */,
 			);
 			path = Animaciones;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				1728087C2903B28A00A18075 /* PacktSampleSwiftUIApp.swift in Sources */,
 				1728089B2903D14700A18075 /* ArmView.swift in Sources */,
 				172808992903CEAF00A18075 /* RecordView.swift in Sources */,
+				176D3CEE290CE4890053FB73 /* Dodgeball.swift in Sources */,
 				172CC2FC29052C590059A310 /* BreathingFlower.swift in Sources */,
 				1728088E2903C00400A18075 /* CircleAnimation.swift in Sources */,
 				1728088B2903BF6000A18075 /* ImageExample2.swift in Sources */,
