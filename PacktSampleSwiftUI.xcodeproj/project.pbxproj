@@ -25,6 +25,10 @@
 		172CC2FC29052C590059A310 /* BreathingFlower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172CC2FB29052C590059A310 /* BreathingFlower.swift */; };
 		172CC2FE29053C380059A310 /* PatrioticBird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172CC2FD29053C380059A310 /* PatrioticBird.swift */; };
 		173EF623290E4B660049A3F1 /* ParallaxEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173EF622290E4B660049A3F1 /* ParallaxEffect.swift */; };
+		173EF625290E51800049A3F1 /* Elevator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173EF624290E51800049A3F1 /* Elevator.swift */; };
+		173EF62A290E552E0049A3F1 /* FrameAndDoorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173EF629290E552E0049A3F1 /* FrameAndDoorsView.swift */; };
+		173EF62E290E69220049A3F1 /* doorsOpenClose.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 173EF628290E52D50049A3F1 /* doorsOpenClose.m4a */; };
+		173EF62F290E69250049A3F1 /* elevatorChime.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 173EF627290E52CF0049A3F1 /* elevatorChime.m4a */; };
 		176D3CEE290CE4890053FB73 /* Dodgeball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176D3CED290CE4890053FB73 /* Dodgeball.swift */; };
 		176D3CF0290CEC5D0053FB73 /* HueRotationExample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176D3CEF290CEC5D0053FB73 /* HueRotationExample2.swift */; };
 		176D3CF2290CF7540053FB73 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176D3CF1290CF7540053FB73 /* SettingsView.swift */; };
@@ -51,6 +55,10 @@
 		172CC2FB29052C590059A310 /* BreathingFlower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingFlower.swift; sourceTree = "<group>"; };
 		172CC2FD29053C380059A310 /* PatrioticBird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatrioticBird.swift; sourceTree = "<group>"; };
 		173EF622290E4B660049A3F1 /* ParallaxEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxEffect.swift; sourceTree = "<group>"; };
+		173EF624290E51800049A3F1 /* Elevator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elevator.swift; sourceTree = "<group>"; };
+		173EF627290E52CF0049A3F1 /* elevatorChime.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = elevatorChime.m4a; path = Images/Elevator/elevatorChime.m4a; sourceTree = SOURCE_ROOT; };
+		173EF628290E52D50049A3F1 /* doorsOpenClose.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = doorsOpenClose.m4a; path = Images/Elevator/doorsOpenClose.m4a; sourceTree = SOURCE_ROOT; };
+		173EF629290E552E0049A3F1 /* FrameAndDoorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAndDoorsView.swift; sourceTree = "<group>"; };
 		176D3CED290CE4890053FB73 /* Dodgeball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dodgeball.swift; sourceTree = "<group>"; };
 		176D3CEF290CEC5D0053FB73 /* HueRotationExample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueRotationExample2.swift; sourceTree = "<group>"; };
 		176D3CF1290CF7540053FB73 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -89,6 +97,7 @@
 			children = (
 				172808942903CB8B00A18075 /* Readme.rtf */,
 				1728087B2903B28A00A18075 /* PacktSampleSwiftUIApp.swift */,
+				173EF62D290E58B80049A3F1 /* CommonFiles */,
 				1728089F2903DB9A00A18075 /* Menu */,
 				172808892903BF3500A18075 /* ExampleImage */,
 				1728088C2903BFC600A18075 /* Animaciones */,
@@ -126,6 +135,7 @@
 				176D3CED290CE4890053FB73 /* Dodgeball.swift */,
 				176D3CF3290CFC330053FB73 /* TransitionViews */,
 				173EF622290E4B660049A3F1 /* ParallaxEffect.swift */,
+				173EF626290E52BC0049A3F1 /* Elevator Example */,
 			);
 			path = Animaciones;
 			sourceTree = "<group>";
@@ -136,7 +146,6 @@
 				172808962903CBC200A18075 /* RecordPlayer.xcassets */,
 				1728089C2903D30E00A18075 /* recordMusic.m4a */,
 				1728088F2903C60E00A18075 /* RecordPlayer.swift */,
-				1728089D2903D5C100A18075 /* PlayRecordSound.swift */,
 				1728089A2903D14700A18075 /* ArmView.swift */,
 				172808912903C73500A18075 /* RecordPlayerBox.swift */,
 				172808982903CEAF00A18075 /* RecordView.swift */,
@@ -150,6 +159,25 @@
 				1728087D2903B28A00A18075 /* ContentView.swift */,
 			);
 			path = Menu;
+			sourceTree = "<group>";
+		};
+		173EF626290E52BC0049A3F1 /* Elevator Example */ = {
+			isa = PBXGroup;
+			children = (
+				173EF628290E52D50049A3F1 /* doorsOpenClose.m4a */,
+				173EF627290E52CF0049A3F1 /* elevatorChime.m4a */,
+				173EF624290E51800049A3F1 /* Elevator.swift */,
+				173EF629290E552E0049A3F1 /* FrameAndDoorsView.swift */,
+			);
+			path = "Elevator Example";
+			sourceTree = "<group>";
+		};
+		173EF62D290E58B80049A3F1 /* CommonFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1728089D2903D5C100A18075 /* PlayRecordSound.swift */,
+			);
+			path = CommonFiles;
 			sourceTree = "<group>";
 		};
 		176D3CF3290CFC330053FB73 /* TransitionViews */ = {
@@ -220,10 +248,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				172808952903CB8B00A18075 /* Readme.rtf in Resources */,
+				173EF62E290E69220049A3F1 /* doorsOpenClose.m4a in Resources */,
 				172808972903CBC200A18075 /* RecordPlayer.xcassets in Resources */,
 				172808A22903DEA500A18075 /* recordMusic.m4a in Resources */,
 				172808832903B28B00A18075 /* Preview Assets.xcassets in Resources */,
 				172808802903B28B00A18075 /* Assets.xcassets in Resources */,
+				173EF62F290E69250049A3F1 /* elevatorChime.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,9 +278,11 @@
 				172CC2FC29052C590059A310 /* BreathingFlower.swift in Sources */,
 				176D3CF0290CEC5D0053FB73 /* HueRotationExample2.swift in Sources */,
 				1728088E2903C00400A18075 /* CircleAnimation.swift in Sources */,
+				173EF62A290E552E0049A3F1 /* FrameAndDoorsView.swift in Sources */,
 				1728088B2903BF6000A18075 /* ImageExample2.swift in Sources */,
 				176D3CF5290D024B0053FB73 /* HomeClockView.swift in Sources */,
 				172808922903C73500A18075 /* RecordPlayerBox.swift in Sources */,
+				173EF625290E51800049A3F1 /* Elevator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
