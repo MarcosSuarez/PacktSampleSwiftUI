@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1721D1E42911732100DC3995 /* TwinklingStars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1721D1E32911732100DC3995 /* TwinklingStars.swift */; };
 		1728087C2903B28A00A18075 /* PacktSampleSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1728087B2903B28A00A18075 /* PacktSampleSwiftUIApp.swift */; };
 		1728087E2903B28A00A18075 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1728087D2903B28A00A18075 /* ContentView.swift */; };
 		172808802903B28B00A18075 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1728087F2903B28B00A18075 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1721D1E32911732100DC3995 /* TwinklingStars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwinklingStars.swift; sourceTree = "<group>"; };
 		172808782903B28A00A18075 /* PacktSampleSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PacktSampleSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1728087B2903B28A00A18075 /* PacktSampleSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacktSampleSwiftUIApp.swift; sourceTree = "<group>"; };
 		1728087D2903B28A00A18075 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				176D3CF3290CFC330053FB73 /* TransitionViews */,
 				173EF622290E4B660049A3F1 /* ParallaxEffect.swift */,
 				173EF626290E52BC0049A3F1 /* Elevator Example */,
+				1721D1E32911732100DC3995 /* TwinklingStars.swift */,
 			);
 			path = Animaciones;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				176D3CF0290CEC5D0053FB73 /* HueRotationExample2.swift in Sources */,
 				1728088E2903C00400A18075 /* CircleAnimation.swift in Sources */,
 				173EF62A290E552E0049A3F1 /* FrameAndDoorsView.swift in Sources */,
+				1721D1E42911732100DC3995 /* TwinklingStars.swift in Sources */,
 				1728088B2903BF6000A18075 /* ImageExample2.swift in Sources */,
 				176D3CF5290D024B0053FB73 /* HomeClockView.swift in Sources */,
 				172808922903C73500A18075 /* RecordPlayerBox.swift in Sources */,
