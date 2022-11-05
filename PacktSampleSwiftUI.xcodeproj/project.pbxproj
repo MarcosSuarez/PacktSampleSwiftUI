@@ -31,11 +31,11 @@
 		17342D1B2916352100EA95F4 /* WeeklyGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17342D1A2916352100EA95F4 /* WeeklyGraph.swift */; };
 		17342D1D2916499C00EA95F4 /* SunMoonToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17342D1C2916499C00EA95F4 /* SunMoonToggleView.swift */; };
 		17342D2029164D1600EA95F4 /* SunMoonToggleStyle in Frameworks */ = {isa = PBXBuildFile; productRef = 17342D1F29164D1600EA95F4 /* SunMoonToggleStyle */; };
+		17342D242916554300EA95F4 /* elevatorChime.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 17342D232916554300EA95F4 /* elevatorChime.m4a */; };
+		17342D262916554C00EA95F4 /* doorsOpenClose.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 17342D252916554C00EA95F4 /* doorsOpenClose.m4a */; };
 		173EF623290E4B660049A3F1 /* ParallaxEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173EF622290E4B660049A3F1 /* ParallaxEffect.swift */; };
 		173EF625290E51800049A3F1 /* Elevator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173EF624290E51800049A3F1 /* Elevator.swift */; };
 		173EF62A290E552E0049A3F1 /* FrameAndDoorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173EF629290E552E0049A3F1 /* FrameAndDoorsView.swift */; };
-		173EF62E290E69220049A3F1 /* doorsOpenClose.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 173EF628290E52D50049A3F1 /* doorsOpenClose.m4a */; };
-		173EF62F290E69250049A3F1 /* elevatorChime.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 173EF627290E52CF0049A3F1 /* elevatorChime.m4a */; };
 		176D3CEE290CE4890053FB73 /* Dodgeball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176D3CED290CE4890053FB73 /* Dodgeball.swift */; };
 		176D3CF0290CEC5D0053FB73 /* HueRotationExample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176D3CEF290CEC5D0053FB73 /* HueRotationExample2.swift */; };
 		176D3CF2290CF7540053FB73 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176D3CF1290CF7540053FB73 /* SettingsView.swift */; };
@@ -67,10 +67,10 @@
 		17342D18291630FF00EA95F4 /* WeatherPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherPickerView.swift; sourceTree = "<group>"; };
 		17342D1A2916352100EA95F4 /* WeeklyGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyGraph.swift; sourceTree = "<group>"; };
 		17342D1C2916499C00EA95F4 /* SunMoonToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunMoonToggleView.swift; sourceTree = "<group>"; };
+		17342D232916554300EA95F4 /* elevatorChime.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = elevatorChime.m4a; path = Images/Elevator/elevatorChime.m4a; sourceTree = SOURCE_ROOT; };
+		17342D252916554C00EA95F4 /* doorsOpenClose.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = doorsOpenClose.m4a; path = Images/Elevator/doorsOpenClose.m4a; sourceTree = SOURCE_ROOT; };
 		173EF622290E4B660049A3F1 /* ParallaxEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxEffect.swift; sourceTree = "<group>"; };
 		173EF624290E51800049A3F1 /* Elevator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elevator.swift; sourceTree = "<group>"; };
-		173EF627290E52CF0049A3F1 /* elevatorChime.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = elevatorChime.m4a; path = Images/Elevator/elevatorChime.m4a; sourceTree = SOURCE_ROOT; };
-		173EF628290E52D50049A3F1 /* doorsOpenClose.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = doorsOpenClose.m4a; path = Images/Elevator/doorsOpenClose.m4a; sourceTree = SOURCE_ROOT; };
 		173EF629290E552E0049A3F1 /* FrameAndDoorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAndDoorsView.swift; sourceTree = "<group>"; };
 		176D3CED290CE4890053FB73 /* Dodgeball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dodgeball.swift; sourceTree = "<group>"; };
 		176D3CEF290CEC5D0053FB73 /* HueRotationExample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueRotationExample2.swift; sourceTree = "<group>"; };
@@ -192,8 +192,8 @@
 		173EF626290E52BC0049A3F1 /* Elevator Example */ = {
 			isa = PBXGroup;
 			children = (
-				173EF628290E52D50049A3F1 /* doorsOpenClose.m4a */,
-				173EF627290E52CF0049A3F1 /* elevatorChime.m4a */,
+				17342D252916554C00EA95F4 /* doorsOpenClose.m4a */,
+				17342D232916554300EA95F4 /* elevatorChime.m4a */,
 				173EF624290E51800049A3F1 /* Elevator.swift */,
 				173EF629290E552E0049A3F1 /* FrameAndDoorsView.swift */,
 			);
@@ -282,12 +282,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				172808952903CB8B00A18075 /* Readme.rtf in Resources */,
-				173EF62E290E69220049A3F1 /* doorsOpenClose.m4a in Resources */,
+				17342D242916554300EA95F4 /* elevatorChime.m4a in Resources */,
 				172808972903CBC200A18075 /* RecordPlayer.xcassets in Resources */,
 				172808A22903DEA500A18075 /* recordMusic.m4a in Resources */,
 				172808832903B28B00A18075 /* Preview Assets.xcassets in Resources */,
 				172808802903B28B00A18075 /* Assets.xcassets in Resources */,
-				173EF62F290E69250049A3F1 /* elevatorChime.m4a in Resources */,
+				17342D262916554C00EA95F4 /* doorsOpenClose.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
