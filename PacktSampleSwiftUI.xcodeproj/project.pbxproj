@@ -25,6 +25,10 @@
 		172CC2FA2905260E0059A310 /* HueRotationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172CC2F92905260E0059A310 /* HueRotationExample.swift */; };
 		172CC2FC29052C590059A310 /* BreathingFlower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172CC2FB29052C590059A310 /* BreathingFlower.swift */; };
 		172CC2FE29053C380059A310 /* PatrioticBird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172CC2FD29053C380059A310 /* PatrioticBird.swift */; };
+		17342D1529162B8B00EA95F4 /* WeatherUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17342D1429162B8B00EA95F4 /* WeatherUIView.swift */; };
+		17342D1729162D6B00EA95F4 /* DataWeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17342D1629162D6B00EA95F4 /* DataWeatherModel.swift */; };
+		17342D19291630FF00EA95F4 /* WeatherPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17342D18291630FF00EA95F4 /* WeatherPickerView.swift */; };
+		17342D1B2916352100EA95F4 /* WeeklyGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17342D1A2916352100EA95F4 /* WeeklyGraph.swift */; };
 		173EF623290E4B660049A3F1 /* ParallaxEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173EF622290E4B660049A3F1 /* ParallaxEffect.swift */; };
 		173EF625290E51800049A3F1 /* Elevator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173EF624290E51800049A3F1 /* Elevator.swift */; };
 		173EF62A290E552E0049A3F1 /* FrameAndDoorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173EF629290E552E0049A3F1 /* FrameAndDoorsView.swift */; };
@@ -56,6 +60,10 @@
 		172CC2F92905260E0059A310 /* HueRotationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueRotationExample.swift; sourceTree = "<group>"; };
 		172CC2FB29052C590059A310 /* BreathingFlower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingFlower.swift; sourceTree = "<group>"; };
 		172CC2FD29053C380059A310 /* PatrioticBird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatrioticBird.swift; sourceTree = "<group>"; };
+		17342D1429162B8B00EA95F4 /* WeatherUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherUIView.swift; sourceTree = "<group>"; };
+		17342D1629162D6B00EA95F4 /* DataWeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataWeatherModel.swift; sourceTree = "<group>"; };
+		17342D18291630FF00EA95F4 /* WeatherPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherPickerView.swift; sourceTree = "<group>"; };
+		17342D1A2916352100EA95F4 /* WeeklyGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyGraph.swift; sourceTree = "<group>"; };
 		173EF622290E4B660049A3F1 /* ParallaxEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxEffect.swift; sourceTree = "<group>"; };
 		173EF624290E51800049A3F1 /* Elevator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elevator.swift; sourceTree = "<group>"; };
 		173EF627290E52CF0049A3F1 /* elevatorChime.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = elevatorChime.m4a; path = Images/Elevator/elevatorChime.m4a; sourceTree = SOURCE_ROOT; };
@@ -139,6 +147,7 @@
 				173EF622290E4B660049A3F1 /* ParallaxEffect.swift */,
 				173EF626290E52BC0049A3F1 /* Elevator Example */,
 				1721D1E32911732100DC3995 /* TwinklingStars.swift */,
+				17342D1329162B4300EA95F4 /* WeatherUI */,
 			);
 			path = Animaciones;
 			sourceTree = "<group>";
@@ -162,6 +171,17 @@
 				1728087D2903B28A00A18075 /* ContentView.swift */,
 			);
 			path = Menu;
+			sourceTree = "<group>";
+		};
+		17342D1329162B4300EA95F4 /* WeatherUI */ = {
+			isa = PBXGroup;
+			children = (
+				17342D1429162B8B00EA95F4 /* WeatherUIView.swift */,
+				17342D1A2916352100EA95F4 /* WeeklyGraph.swift */,
+				17342D18291630FF00EA95F4 /* WeatherPickerView.swift */,
+				17342D1629162D6B00EA95F4 /* DataWeatherModel.swift */,
+			);
+			path = WeatherUI;
 			sourceTree = "<group>";
 		};
 		173EF626290E52BC0049A3F1 /* Elevator Example */ = {
@@ -272,17 +292,21 @@
 				173EF623290E4B660049A3F1 /* ParallaxEffect.swift in Sources */,
 				172CC2FE29053C380059A310 /* PatrioticBird.swift in Sources */,
 				1728087E2903B28A00A18075 /* ContentView.swift in Sources */,
+				17342D19291630FF00EA95F4 /* WeatherPickerView.swift in Sources */,
 				172CC2FA2905260E0059A310 /* HueRotationExample.swift in Sources */,
+				17342D1B2916352100EA95F4 /* WeeklyGraph.swift in Sources */,
 				1728087C2903B28A00A18075 /* PacktSampleSwiftUIApp.swift in Sources */,
 				1728089B2903D14700A18075 /* ArmView.swift in Sources */,
 				176D3CF2290CF7540053FB73 /* SettingsView.swift in Sources */,
 				172808992903CEAF00A18075 /* RecordView.swift in Sources */,
 				176D3CEE290CE4890053FB73 /* Dodgeball.swift in Sources */,
+				17342D1529162B8B00EA95F4 /* WeatherUIView.swift in Sources */,
 				172CC2FC29052C590059A310 /* BreathingFlower.swift in Sources */,
 				176D3CF0290CEC5D0053FB73 /* HueRotationExample2.swift in Sources */,
 				1728088E2903C00400A18075 /* CircleAnimation.swift in Sources */,
 				173EF62A290E552E0049A3F1 /* FrameAndDoorsView.swift in Sources */,
 				1721D1E42911732100DC3995 /* TwinklingStars.swift in Sources */,
+				17342D1729162D6B00EA95F4 /* DataWeatherModel.swift in Sources */,
 				1728088B2903BF6000A18075 /* ImageExample2.swift in Sources */,
 				176D3CF5290D024B0053FB73 /* HomeClockView.swift in Sources */,
 				172808922903C73500A18075 /* RecordPlayerBox.swift in Sources */,
