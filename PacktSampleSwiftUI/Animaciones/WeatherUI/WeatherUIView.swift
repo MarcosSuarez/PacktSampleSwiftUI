@@ -36,6 +36,8 @@ struct WeatherUIView: View {
             Color(.sRGB, red: 255/255, green: 195/255, blue: 0/255)
                 .edgesIgnoringSafeArea(.all)
             VStack {
+                // MARK: - SunMoonToggle imported
+                SunMoonToggleView(isOn: $isOn)
                 // MARK: - Title
                 Text("Weather")
                     .font(.system(size: 40))

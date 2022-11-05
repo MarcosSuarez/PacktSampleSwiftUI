@@ -29,6 +29,8 @@
 		17342D1729162D6B00EA95F4 /* DataWeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17342D1629162D6B00EA95F4 /* DataWeatherModel.swift */; };
 		17342D19291630FF00EA95F4 /* WeatherPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17342D18291630FF00EA95F4 /* WeatherPickerView.swift */; };
 		17342D1B2916352100EA95F4 /* WeeklyGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17342D1A2916352100EA95F4 /* WeeklyGraph.swift */; };
+		17342D1D2916499C00EA95F4 /* SunMoonToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17342D1C2916499C00EA95F4 /* SunMoonToggleView.swift */; };
+		17342D2029164D1600EA95F4 /* SunMoonToggleStyle in Frameworks */ = {isa = PBXBuildFile; productRef = 17342D1F29164D1600EA95F4 /* SunMoonToggleStyle */; };
 		173EF623290E4B660049A3F1 /* ParallaxEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173EF622290E4B660049A3F1 /* ParallaxEffect.swift */; };
 		173EF625290E51800049A3F1 /* Elevator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173EF624290E51800049A3F1 /* Elevator.swift */; };
 		173EF62A290E552E0049A3F1 /* FrameAndDoorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173EF629290E552E0049A3F1 /* FrameAndDoorsView.swift */; };
@@ -64,6 +66,7 @@
 		17342D1629162D6B00EA95F4 /* DataWeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataWeatherModel.swift; sourceTree = "<group>"; };
 		17342D18291630FF00EA95F4 /* WeatherPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherPickerView.swift; sourceTree = "<group>"; };
 		17342D1A2916352100EA95F4 /* WeeklyGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyGraph.swift; sourceTree = "<group>"; };
+		17342D1C2916499C00EA95F4 /* SunMoonToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunMoonToggleView.swift; sourceTree = "<group>"; };
 		173EF622290E4B660049A3F1 /* ParallaxEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxEffect.swift; sourceTree = "<group>"; };
 		173EF624290E51800049A3F1 /* Elevator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elevator.swift; sourceTree = "<group>"; };
 		173EF627290E52CF0049A3F1 /* elevatorChime.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = elevatorChime.m4a; path = Images/Elevator/elevatorChime.m4a; sourceTree = SOURCE_ROOT; };
@@ -80,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17342D2029164D1600EA95F4 /* SunMoonToggleStyle in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +184,7 @@
 				17342D1A2916352100EA95F4 /* WeeklyGraph.swift */,
 				17342D18291630FF00EA95F4 /* WeatherPickerView.swift */,
 				17342D1629162D6B00EA95F4 /* DataWeatherModel.swift */,
+				17342D1C2916499C00EA95F4 /* SunMoonToggleView.swift */,
 			);
 			path = WeatherUI;
 			sourceTree = "<group>";
@@ -228,6 +233,9 @@
 			dependencies = (
 			);
 			name = PacktSampleSwiftUI;
+			packageProductDependencies = (
+				17342D1F29164D1600EA95F4 /* SunMoonToggleStyle */,
+			);
 			productName = PacktSampleSwiftUI;
 			productReference = 172808782903B28A00A18075 /* PacktSampleSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -256,6 +264,9 @@
 				Base,
 			);
 			mainGroup = 1728086F2903B28A00A18075;
+			packageReferences = (
+				17342D1E29164D1600EA95F4 /* XCRemoteSwiftPackageReference "SunMoonToggleStyle" */,
+			);
 			productRefGroup = 172808792903B28A00A18075 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -289,6 +300,7 @@
 			files = (
 				1728089E2903D5C100A18075 /* PlayRecordSound.swift in Sources */,
 				172808902903C60E00A18075 /* RecordPlayer.swift in Sources */,
+				17342D1D2916499C00EA95F4 /* SunMoonToggleView.swift in Sources */,
 				173EF623290E4B660049A3F1 /* ParallaxEffect.swift in Sources */,
 				172CC2FE29053C380059A310 /* PatrioticBird.swift in Sources */,
 				1728087E2903B28A00A18075 /* ContentView.swift in Sources */,
@@ -509,6 +521,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		17342D1E29164D1600EA95F4 /* XCRemoteSwiftPackageReference "SunMoonToggleStyle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/puthnith/SunMoonToggleStyle";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		17342D1F29164D1600EA95F4 /* SunMoonToggleStyle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17342D1E29164D1600EA95F4 /* XCRemoteSwiftPackageReference "SunMoonToggleStyle" */;
+			productName = SunMoonToggleStyle;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 172808702903B28A00A18075 /* Project object */;
 }
