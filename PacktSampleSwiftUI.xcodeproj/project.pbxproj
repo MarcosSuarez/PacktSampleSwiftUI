@@ -33,6 +33,10 @@
 		17342D2029164D1600EA95F4 /* SunMoonToggleStyle in Frameworks */ = {isa = PBXBuildFile; productRef = 17342D1F29164D1600EA95F4 /* SunMoonToggleStyle */; };
 		17342D242916554300EA95F4 /* elevatorChime.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 17342D232916554300EA95F4 /* elevatorChime.m4a */; };
 		17342D262916554C00EA95F4 /* doorsOpenClose.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 17342D252916554C00EA95F4 /* doorsOpenClose.m4a */; };
+		17342D29291655EB00EA95F4 /* GearsAndBelts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17342D28291655EB00EA95F4 /* GearsAndBelts.swift */; };
+		17342D2B291656F600EA95F4 /* GearsAndBelts.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17342D2A291656F600EA95F4 /* GearsAndBelts.xcassets */; };
+		17342D2D2916576A00EA95F4 /* GearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17342D2C2916576A00EA95F4 /* GearView.swift */; };
+		17342D2F29165D7100EA95F4 /* WormGearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17342D2E29165D7100EA95F4 /* WormGearView.swift */; };
 		173EF623290E4B660049A3F1 /* ParallaxEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173EF622290E4B660049A3F1 /* ParallaxEffect.swift */; };
 		173EF625290E51800049A3F1 /* Elevator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173EF624290E51800049A3F1 /* Elevator.swift */; };
 		173EF62A290E552E0049A3F1 /* FrameAndDoorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173EF629290E552E0049A3F1 /* FrameAndDoorsView.swift */; };
@@ -40,6 +44,9 @@
 		176D3CF0290CEC5D0053FB73 /* HueRotationExample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176D3CEF290CEC5D0053FB73 /* HueRotationExample2.swift */; };
 		176D3CF2290CF7540053FB73 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176D3CF1290CF7540053FB73 /* SettingsView.swift */; };
 		176D3CF5290D024B0053FB73 /* HomeClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176D3CF4290D024B0053FB73 /* HomeClockView.swift */; };
+		179D3AC229177BC700E0C968 /* BeltView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179D3AC129177BC700E0C968 /* BeltView.swift */; };
+		179D3AC4291781AC00E0C968 /* GearShaftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179D3AC3291781AC00E0C968 /* GearShaftView.swift */; };
+		179D3AC62917831400E0C968 /* FanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179D3AC52917831400E0C968 /* FanView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +76,10 @@
 		17342D1C2916499C00EA95F4 /* SunMoonToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunMoonToggleView.swift; sourceTree = "<group>"; };
 		17342D232916554300EA95F4 /* elevatorChime.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = elevatorChime.m4a; path = Images/Elevator/elevatorChime.m4a; sourceTree = SOURCE_ROOT; };
 		17342D252916554C00EA95F4 /* doorsOpenClose.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = doorsOpenClose.m4a; path = Images/Elevator/doorsOpenClose.m4a; sourceTree = SOURCE_ROOT; };
+		17342D28291655EB00EA95F4 /* GearsAndBelts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearsAndBelts.swift; sourceTree = "<group>"; };
+		17342D2A291656F600EA95F4 /* GearsAndBelts.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = GearsAndBelts.xcassets; sourceTree = "<group>"; };
+		17342D2C2916576A00EA95F4 /* GearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearView.swift; sourceTree = "<group>"; };
+		17342D2E29165D7100EA95F4 /* WormGearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WormGearView.swift; sourceTree = "<group>"; };
 		173EF622290E4B660049A3F1 /* ParallaxEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxEffect.swift; sourceTree = "<group>"; };
 		173EF624290E51800049A3F1 /* Elevator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elevator.swift; sourceTree = "<group>"; };
 		173EF629290E552E0049A3F1 /* FrameAndDoorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAndDoorsView.swift; sourceTree = "<group>"; };
@@ -76,6 +87,9 @@
 		176D3CEF290CEC5D0053FB73 /* HueRotationExample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueRotationExample2.swift; sourceTree = "<group>"; };
 		176D3CF1290CF7540053FB73 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		176D3CF4290D024B0053FB73 /* HomeClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeClockView.swift; sourceTree = "<group>"; };
+		179D3AC129177BC700E0C968 /* BeltView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeltView.swift; sourceTree = "<group>"; };
+		179D3AC3291781AC00E0C968 /* GearShaftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearShaftView.swift; sourceTree = "<group>"; };
+		179D3AC52917831400E0C968 /* FanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +166,7 @@
 				173EF626290E52BC0049A3F1 /* Elevator Example */,
 				1721D1E32911732100DC3995 /* TwinklingStars.swift */,
 				17342D1329162B4300EA95F4 /* WeatherUI */,
+				17342D27291655CE00EA95F4 /* GearsAndBelts */,
 			);
 			path = Animaciones;
 			sourceTree = "<group>";
@@ -187,6 +202,20 @@
 				17342D1C2916499C00EA95F4 /* SunMoonToggleView.swift */,
 			);
 			path = WeatherUI;
+			sourceTree = "<group>";
+		};
+		17342D27291655CE00EA95F4 /* GearsAndBelts */ = {
+			isa = PBXGroup;
+			children = (
+				17342D28291655EB00EA95F4 /* GearsAndBelts.swift */,
+				17342D2C2916576A00EA95F4 /* GearView.swift */,
+				17342D2E29165D7100EA95F4 /* WormGearView.swift */,
+				179D3AC129177BC700E0C968 /* BeltView.swift */,
+				179D3AC3291781AC00E0C968 /* GearShaftView.swift */,
+				179D3AC52917831400E0C968 /* FanView.swift */,
+				17342D2A291656F600EA95F4 /* GearsAndBelts.xcassets */,
+			);
+			path = GearsAndBelts;
 			sourceTree = "<group>";
 		};
 		173EF626290E52BC0049A3F1 /* Elevator Example */ = {
@@ -282,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				172808952903CB8B00A18075 /* Readme.rtf in Resources */,
+				17342D2B291656F600EA95F4 /* GearsAndBelts.xcassets in Resources */,
 				17342D242916554300EA95F4 /* elevatorChime.m4a in Resources */,
 				172808972903CBC200A18075 /* RecordPlayer.xcassets in Resources */,
 				172808A22903DEA500A18075 /* recordMusic.m4a in Resources */,
@@ -299,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1728089E2903D5C100A18075 /* PlayRecordSound.swift in Sources */,
+				17342D2D2916576A00EA95F4 /* GearView.swift in Sources */,
 				172808902903C60E00A18075 /* RecordPlayer.swift in Sources */,
 				17342D1D2916499C00EA95F4 /* SunMoonToggleView.swift in Sources */,
 				173EF623290E4B660049A3F1 /* ParallaxEffect.swift in Sources */,
@@ -311,8 +342,10 @@
 				1728089B2903D14700A18075 /* ArmView.swift in Sources */,
 				176D3CF2290CF7540053FB73 /* SettingsView.swift in Sources */,
 				172808992903CEAF00A18075 /* RecordView.swift in Sources */,
+				179D3AC62917831400E0C968 /* FanView.swift in Sources */,
 				176D3CEE290CE4890053FB73 /* Dodgeball.swift in Sources */,
 				17342D1529162B8B00EA95F4 /* WeatherUIView.swift in Sources */,
+				179D3AC4291781AC00E0C968 /* GearShaftView.swift in Sources */,
 				172CC2FC29052C590059A310 /* BreathingFlower.swift in Sources */,
 				176D3CF0290CEC5D0053FB73 /* HueRotationExample2.swift in Sources */,
 				1728088E2903C00400A18075 /* CircleAnimation.swift in Sources */,
@@ -320,9 +353,12 @@
 				1721D1E42911732100DC3995 /* TwinklingStars.swift in Sources */,
 				17342D1729162D6B00EA95F4 /* DataWeatherModel.swift in Sources */,
 				1728088B2903BF6000A18075 /* ImageExample2.swift in Sources */,
+				179D3AC229177BC700E0C968 /* BeltView.swift in Sources */,
 				176D3CF5290D024B0053FB73 /* HomeClockView.swift in Sources */,
+				17342D2F29165D7100EA95F4 /* WormGearView.swift in Sources */,
 				172808922903C73500A18075 /* RecordPlayerBox.swift in Sources */,
 				173EF625290E51800049A3F1 /* Elevator.swift in Sources */,
+				17342D29291655EB00EA95F4 /* GearsAndBelts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
