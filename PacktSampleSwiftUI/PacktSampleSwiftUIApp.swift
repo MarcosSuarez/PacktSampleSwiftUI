@@ -11,7 +11,7 @@ import SwiftUI
 struct PacktSampleSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            GearsAndBelts()
+            HeartAnimate()
         }
     }
 }
