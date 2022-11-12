@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		170D2BA4291F617C00C16795 /* MakeSomeWaves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170D2BA3291F617C00C16795 /* MakeSomeWaves.swift */; };
+		170D2BA6291F61F300C16795 /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170D2BA5291F61F300C16795 /* WaveView.swift */; };
+		170D2BA9291F6E9D00C16795 /* BuoyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170D2BA8291F6E9D00C16795 /* BuoyView.swift */; };
 		1721D1E42911732100DC3995 /* TwinklingStars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1721D1E32911732100DC3995 /* TwinklingStars.swift */; };
 		1728087C2903B28A00A18075 /* PacktSampleSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1728087B2903B28A00A18075 /* PacktSampleSwiftUIApp.swift */; };
 		1728087E2903B28A00A18075 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1728087D2903B28A00A18075 /* ContentView.swift */; };
@@ -50,6 +53,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		170D2BA3291F617C00C16795 /* MakeSomeWaves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeSomeWaves.swift; sourceTree = "<group>"; };
+		170D2BA5291F61F300C16795 /* WaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
+		170D2BA8291F6E9D00C16795 /* BuoyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuoyView.swift; sourceTree = "<group>"; };
 		1721D1E32911732100DC3995 /* TwinklingStars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwinklingStars.swift; sourceTree = "<group>"; };
 		172808782903B28A00A18075 /* PacktSampleSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PacktSampleSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1728087B2903B28A00A18075 /* PacktSampleSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacktSampleSwiftUIApp.swift; sourceTree = "<group>"; };
@@ -104,6 +110,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		170D2BA7291F61FE00C16795 /* MMake some Waves */ = {
+			isa = PBXGroup;
+			children = (
+				170D2BA3291F617C00C16795 /* MakeSomeWaves.swift */,
+				170D2BA8291F6E9D00C16795 /* BuoyView.swift */,
+				170D2BA5291F61F300C16795 /* WaveView.swift */,
+			);
+			path = "MMake some Waves";
+			sourceTree = "<group>";
+		};
 		1728086F2903B28A00A18075 = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +183,7 @@
 				1721D1E32911732100DC3995 /* TwinklingStars.swift */,
 				17342D1329162B4300EA95F4 /* WeatherUI */,
 				17342D27291655CE00EA95F4 /* GearsAndBelts */,
+				170D2BA7291F61FE00C16795 /* MMake some Waves */,
 			);
 			path = Animaciones;
 			sourceTree = "<group>";
@@ -334,6 +351,7 @@
 				17342D1D2916499C00EA95F4 /* SunMoonToggleView.swift in Sources */,
 				173EF623290E4B660049A3F1 /* ParallaxEffect.swift in Sources */,
 				172CC2FE29053C380059A310 /* PatrioticBird.swift in Sources */,
+				170D2BA4291F617C00C16795 /* MakeSomeWaves.swift in Sources */,
 				1728087E2903B28A00A18075 /* ContentView.swift in Sources */,
 				17342D19291630FF00EA95F4 /* WeatherPickerView.swift in Sources */,
 				172CC2FA2905260E0059A310 /* HueRotationExample.swift in Sources */,
@@ -349,6 +367,7 @@
 				172CC2FC29052C590059A310 /* BreathingFlower.swift in Sources */,
 				176D3CF0290CEC5D0053FB73 /* HueRotationExample2.swift in Sources */,
 				1728088E2903C00400A18075 /* CircleAnimation.swift in Sources */,
+				170D2BA6291F61F300C16795 /* WaveView.swift in Sources */,
 				173EF62A290E552E0049A3F1 /* FrameAndDoorsView.swift in Sources */,
 				1721D1E42911732100DC3995 /* TwinklingStars.swift in Sources */,
 				17342D1729162D6B00EA95F4 /* DataWeatherModel.swift in Sources */,
@@ -359,6 +378,7 @@
 				172808922903C73500A18075 /* RecordPlayerBox.swift in Sources */,
 				173EF625290E51800049A3F1 /* Elevator.swift in Sources */,
 				17342D29291655EB00EA95F4 /* GearsAndBelts.swift in Sources */,
+				170D2BA9291F6E9D00C16795 /* BuoyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
