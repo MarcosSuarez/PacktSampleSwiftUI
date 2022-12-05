@@ -17,6 +17,7 @@
 		170D2BAD291F796300C16795 /* HeartShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170D2BAC291F796300C16795 /* HeartShape.swift */; };
 		170D2BB1291F843100C16795 /* ExpandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170D2BB0291F843100C16795 /* ExpandView.swift */; };
 		170D2BB3291F84B400C16795 /* ExpandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170D2BB2291F84B400C16795 /* ExpandingView.swift */; };
+		17160F21293DEA340066A08E /* SwingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17160F20293DEA340066A08E /* SwingView.swift */; };
 		1721D1E42911732100DC3995 /* TwinklingStars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1721D1E32911732100DC3995 /* TwinklingStars.swift */; };
 		1728087C2903B28A00A18075 /* PacktSampleSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1728087B2903B28A00A18075 /* PacktSampleSwiftUIApp.swift */; };
 		1728087E2903B28A00A18075 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1728087D2903B28A00A18075 /* ContentView.swift */; };
@@ -75,6 +76,7 @@
 		170D2BAC291F796300C16795 /* HeartShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartShape.swift; sourceTree = "<group>"; };
 		170D2BB0291F843100C16795 /* ExpandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandView.swift; sourceTree = "<group>"; };
 		170D2BB2291F84B400C16795 /* ExpandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingView.swift; sourceTree = "<group>"; };
+		17160F20293DEA340066A08E /* SwingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwingView.swift; sourceTree = "<group>"; };
 		1721D1E32911732100DC3995 /* TwinklingStars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwinklingStars.swift; sourceTree = "<group>"; };
 		172808782903B28A00A18075 /* PacktSampleSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PacktSampleSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1728087B2903B28A00A18075 /* PacktSampleSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacktSampleSwiftUIApp.swift; sourceTree = "<group>"; };
@@ -173,6 +175,14 @@
 			path = "Expand View";
 			sourceTree = "<group>";
 		};
+		17160F1F293DE9D50066A08E /* Swing */ = {
+			isa = PBXGroup;
+			children = (
+				17160F20293DEA340066A08E /* SwingView.swift */,
+			);
+			path = Swing;
+			sourceTree = "<group>";
+		};
 		1728086F2903B28A00A18075 = {
 			isa = PBXGroup;
 			children = (
@@ -233,6 +243,7 @@
 				176D3CF3290CFC330053FB73 /* TransitionViews */,
 				173EF622290E4B660049A3F1 /* ParallaxEffect.swift */,
 				173EF626290E52BC0049A3F1 /* Elevator Example */,
+				17160F1F293DE9D50066A08E /* Swing */,
 				1721D1E32911732100DC3995 /* TwinklingStars.swift */,
 				17342D1329162B4300EA95F4 /* WeatherUI */,
 				17342D27291655CE00EA95F4 /* GearsAndBelts */,
@@ -415,6 +426,7 @@
 			files = (
 				1728089E2903D5C100A18075 /* PlayRecordSound.swift in Sources */,
 				17342D2D2916576A00EA95F4 /* GearView.swift in Sources */,
+				17160F21293DEA340066A08E /* SwingView.swift in Sources */,
 				172808902903C60E00A18075 /* RecordPlayer.swift in Sources */,
 				17342D1D2916499C00EA95F4 /* SunMoonToggleView.swift in Sources */,
 				173EF623290E4B660049A3F1 /* ParallaxEffect.swift in Sources */,
