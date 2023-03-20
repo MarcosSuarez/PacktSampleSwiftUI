@@ -59,6 +59,7 @@
 		179D3AC229177BC700E0C968 /* BeltView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179D3AC129177BC700E0C968 /* BeltView.swift */; };
 		179D3AC4291781AC00E0C968 /* GearShaftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179D3AC3291781AC00E0C968 /* GearShaftView.swift */; };
 		179D3AC62917831400E0C968 /* FanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179D3AC52917831400E0C968 /* FanView.swift */; };
+		17BD713729C83CE700D6F048 /* AppleClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BD713629C83CE700D6F048 /* AppleClock.swift */; };
 		17FB16652931DBB3008CCDE6 /* CircleEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FB16642931DBB3008CCDE6 /* CircleEmitter.swift */; };
 		17FB16672931DCAE008CCDE6 /* ArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FB16662931DCAE008CCDE6 /* ArcView.swift */; };
 		17FB166A2931F497008CCDE6 /* BookLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FB16692931F497008CCDE6 /* BookLoaderView.swift */; };
@@ -119,6 +120,7 @@
 		179D3AC129177BC700E0C968 /* BeltView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeltView.swift; sourceTree = "<group>"; };
 		179D3AC3291781AC00E0C968 /* GearShaftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearShaftView.swift; sourceTree = "<group>"; };
 		179D3AC52917831400E0C968 /* FanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanView.swift; sourceTree = "<group>"; };
+		17BD713629C83CE700D6F048 /* AppleClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleClock.swift; sourceTree = "<group>"; };
 		17FB16642931DBB3008CCDE6 /* CircleEmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleEmitter.swift; sourceTree = "<group>"; };
 		17FB16662931DCAE008CCDE6 /* ArcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcView.swift; sourceTree = "<group>"; };
 		17FB16692931F497008CCDE6 /* BookLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookLoaderView.swift; sourceTree = "<group>"; };
@@ -216,6 +218,7 @@
 				1728087B2903B28A00A18075 /* PacktSampleSwiftUIApp.swift */,
 				173EF62D290E58B80049A3F1 /* CommonFiles */,
 				1728089F2903DB9A00A18075 /* Menu */,
+				17BD713529C83CC300D6F048 /* AppleClock */,
 				172808892903BF3500A18075 /* ExampleImage */,
 				1728088C2903BFC600A18075 /* Animaciones */,
 				1728087F2903B28B00A18075 /* Assets.xcassets */,
@@ -341,6 +344,14 @@
 				176D3CF1290CF7540053FB73 /* SettingsView.swift */,
 			);
 			path = TransitionViews;
+			sourceTree = "<group>";
+		};
+		17BD713529C83CC300D6F048 /* AppleClock */ = {
+			isa = PBXGroup;
+			children = (
+				17BD713629C83CE700D6F048 /* AppleClock.swift */,
+			);
+			path = AppleClock;
 			sourceTree = "<group>";
 		};
 		17FB16682931F467008CCDE6 /* Book Animation */ = {
@@ -469,6 +480,7 @@
 				170D2BA6291F61F300C16795 /* WaveView.swift in Sources */,
 				173EF62A290E552E0049A3F1 /* FrameAndDoorsView.swift in Sources */,
 				1709E8BB2921052100D0B059 /* CirclesView.swift in Sources */,
+				17BD713729C83CE700D6F048 /* AppleClock.swift in Sources */,
 				1721D1E42911732100DC3995 /* TwinklingStars.swift in Sources */,
 				17342D1729162D6B00EA95F4 /* DataWeatherModel.swift in Sources */,
 				1728088B2903BF6000A18075 /* ImageExample2.swift in Sources */,
@@ -618,6 +630,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -649,6 +662,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
